@@ -54,7 +54,7 @@ src -- 源码目录
 ## 搭建步骤
 - 下载node并安装：[https://nodejs.org/dist/v12.14.0/node-v12.14.0-x64.msi](https://nodejs.org/dist/v12.14.0/node-v12.14.0-x64.msi);
 - 该项目为前后端分离项目，访问本地访问接口需搭建后台环境，搭建请参考后端项目[传送门](https://gitee.com/tingchun/xtshop);
-- 访问在线接口无需搭建后台环境，只需将`config/dev.env.js`文件中的`BASE_API`改为[http://mall-admin-api.goodsbuy.site](http://mall-admin-api.goodsbuy.site)即可;
+- 访问在线接口无需搭建后台环境，只需将`config/dev.env.js`文件中的`BASE_API`改为[https://api.xiaotingshop.cn](https://api.xiaotingshop.cn)即可;
 - 克隆源代码到本地，使用IDEA打开，并完成编译;
 - 在IDEA命令行中运行命令：npm install,下载相关依赖;
 - 在IDEA命令行中运行命令：npm run dev,运行项目;
